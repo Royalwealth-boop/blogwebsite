@@ -1,0 +1,395 @@
+/* navbar styling */
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    background-color: black;
+}
+body{
+    margin: 0;
+}
+nav, ul{
+    margin: 0;
+    padding: 10px;
+}
+/* navbar styling ends here */
+
+/* image styling */
+
+/* image styling ends here */
+
+/* headline styling starts here */
+.headline1{
+background-image: url(../images/FLEX1.jpg);
+background-repeat: no-repeat;
+height: 100vh;
+width: 100%;
+background-size: cover;
+overflow: hidden;
+position: relative;
+background-position: center;
+top: 0;
+left: 0;
+}
+
+.headline2{
+    background-image: url(../images/FLEX2.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    top: 0;
+    left: 0;
+}
+.headline3{
+background-image: url(../images/FLEX3.webp);
+background-repeat: no-repeat;
+height: 100vh;
+width: 100%;
+background-size: cover;
+overflow: hidden;
+position: relative;
+background-position: center;
+top: 0;
+left: 0;
+}
+
+.headline4{
+    background-image: url(../images/FLEX4.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    top: 0;
+    left: 0;
+}
+.headline4 .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.headline4 .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+.headline1 .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.headline1 .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.headline2 .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.headline2 .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.headline3 .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.headline3 .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.headline1, .headline2, .headline3, .headline4 h3{
+    text-decoration: none;
+    color: red;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+ .headline1, .headline2, .headline3 h3:hover{
+    background-color: white;
+    color: brown;
+    padding: 20px 40px;
+ }
+ .headline1, .headline2, .headline3 p{
+    margin-bottom: 30px;
+ }
+
+ .headline .container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+ }
+/* headline styling ends here */
+
+/* top stories styling starts here */
+
+.topstories .container1{
+    display: flex;
+
+}
+.topstories .container2{
+    display: flex;
+}
+.topstories .container3{
+    display: flex;
+}
+.topstories .container4{
+    display: flex;
+}
+.topstories .container5{
+    display: flex;
+}
+.topstories .container6{
+    display: flex;
+}
+.topstories .container7{
+    display: flex;
+}
+.container2 img{
+    height: 300px;
+    width: 500px;
+}
+.topstories .container2 .box{
+margin-left: 5px;
+margin-right: 30px;
+margin-top:30px;
+}
+.container1 img{
+    height: 300px;
+    width: 500px;
+}
+.topstories .container1 .box{
+    margin-left: 5px;
+    margin-right: 30px;
+}
+.container3 img{
+    height: 300px;
+    width: 500px;
+}
+.topstories .container3 .box{
+    margin-left: 5px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.container4 img{
+    height: 300px;
+    width: 500px;
+}
+.topstories .container4 .box{
+    margin-left: 5px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.container5 img{
+    height: 300px;
+    width: 500px;
+}
+.topstories .container5 .box{
+    margin-left: 5px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.container6 img{
+    height: 300px;
+    width: 500px;
+}
+.topstories .container6 .box{
+    margin-left: 5px;
+    margin-right: 30px;
+     margin-top: 30px;
+}
+.container7 img{
+    height: 300px;
+    width: 500px;
+}
+.topstories .container7 .box{
+    margin-left: 5px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+/* top stories styling ends here */
+
+/* most viewed stories styling starts here */
+.most-viewed h3{
+    text-align: center;
+    
+}
+
+.most-viewed .container .box{
+    background-image: url(../images/sw1.webp);
+    background-repeat:no-repeat;
+    height: 40vh;
+    position: relative;
+    width: 50%;
+    margin: 30px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.most-viewed .container .overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.most-viewed .container{
+    display: flex;
+}
+
+.most-viewed .container .content{
+    position: absolute;
+}
+
+.most-viewed .container .content a{
+ 
+    background-color: red;
+    padding: 10px 35px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.most-viewed .container .content p{
+    position: absolute;
+  margin-top: 130px;
+  color: black;
+}
+
+.mostview .containerA .box1{
+    background-image: url(../images/accessimage.png);
+    background-repeat:no-repeat;
+    height: 40vh;
+    position: relative;
+    width: 50%;
+    margin: 30px;
+    background-size: cover;
+    background-position: center center;
+}
+.mostview .containerA .overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.mostview .containerA{
+    display: flex;
+}
+
+.mostview .containerA .content{
+    position: absolute;
+}
+
+.mostview .containerA .content a{
+ 
+    background-color: red;
+    padding: 10px 35px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.mostview .containerA .content p{
+    position: absolute;
+  margin-top: 130px;
+  color: black;
+}
+.mostview .containerA .box2{
+    background-image: url(../images/anoh_commissioning_.jpg);
+    background-repeat:no-repeat;
+    height: 40vh;
+    position: relative;
+    width: 50%;
+    margin: 30px;
+    background-size: cover;
+    background-position: center center;
+}
+.mostview .containerA .overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.mostview .containerA{
+    display: flex;
+}
+
+.mostview .containerA .content{
+    position: absolute;
+}
+
+.mostview .containerA .content a{
+ 
+    background-color: red;
+    padding: 10px 35px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.mostview .containerA .content p{
+    position: absolute;
+  margin-top: 130px;
+  color: black;
+}
+
+.mostview .containerA .box3{
+    background-image: url(../images/berger-paints.jpg);
+    background-repeat:no-repeat;
+    height: 40vh;
+    position: relative;
+    width: 50%;
+    margin: 30px;
+    background-size: cover;
+    background-position: center center;
+}
+.mostview .containerA .box4{
+    background-image: url(../images/anoh_commissioning_.jpg);
+    background-repeat:no-repeat;
+    height: 40vh;
+    position: relative;
+    width: 50%;
+    margin: 30px;
+    background-size: cover;
+    background-position: center center;
+}
+
